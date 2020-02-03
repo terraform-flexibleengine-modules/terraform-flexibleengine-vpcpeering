@@ -7,14 +7,14 @@ module "peering_main2" {
 
   providers = {
     flexibleengine.requester = flexibleengine.tenant_main
-    flexibleengine.accepter = flexibleengine.tenant_accepter
+    flexibleengine.accepter  = flexibleengine.tenant_accepter
   }
 
   peer_name = "peering-test-22"
 
-  vpc_req_name       = "vpc-test"
+  vpc_req_name = "vpc-test"
 
-  vpc_acc_name       = "vpc-main"
+  vpc_acc_name = "vpc-main"
 
   req_subnet_cidr = [
     "10.1.0.0/16"
