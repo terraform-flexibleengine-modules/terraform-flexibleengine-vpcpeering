@@ -1,7 +1,3 @@
-terraform {
-  required_version = ">= 0.12"
-}
-
 # init provider
 provider "flexibleengine" {
   alias = "requester"
