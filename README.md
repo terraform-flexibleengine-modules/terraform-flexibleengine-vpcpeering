@@ -2,7 +2,7 @@
 
 Terraform module which creates peering between VPC on Flexible Engine.
 
-## TF Version : 0.12
+## TF Version : 0.13
 
 ## Usage : Terraform
 
@@ -37,7 +37,7 @@ Example of module call:
 
 ```hcl
 module "peering_stage_prod" {
-  source = "terraform-flexibleengine-modules/vpcpeering/flexibleengine"
+  source = "FlexibleEngineCloud/vpcpeering/flexibleengine"
   version = "1.0.0"
 
   providers = {
